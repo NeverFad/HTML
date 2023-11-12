@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: calc(33% - 1rem);
+    max-width: 300px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+
+#register {
+
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 0 1 0 rgba(0, 0, 0, 0) inset;
+    transition: all 1s;
+}
+
+#register :hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.4);
+}
+
+#register ul {
+    display: flex;
+    justify-content: end;
+
+}
+
+#register ul li a {
+    color: #1ed6f3e4;
+}
+
+#register ul li {
+    padding: 10px 20px;
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover img {
+    filter: grayscale(0);
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.card img {
+    filter: grayscale(1);
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    height: 250px;
+    opacity: 0.8;
+    /* 图片透明度 */
+    transform: scale(1);
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+
+.card:hover .card-content {
+    transform: translateY(-50%);
+    opacity: 1;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}

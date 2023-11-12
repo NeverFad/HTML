@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="">
+    <meta name="description" content="姓名-学号">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2月25号作业</title>
+</head>
+<body>
+
+<p> &nbsp;&nbsp;&nbsp;&nbsp;当四边的边框样式都相同时，可以使用border属性进行综合设置。例如，将二级标题的边框设置为双红线，红色，3像素宽，代码如下</p>
+<div style="background-color: black;width:100px;height:20px;">
+<p><font size= "2" color = "bule">  {broder :3px double red;}</font> </p>
+</div>
+<p> &nbsp;&nbsp;&nbsp;&nbsp;像broder ,broder-top 等这样，能够一个属性定义元素的多种形式，在css中称之为复合属性，常用的复合属性有font ,broder , margin , padding , 和 background 等。实际上工作中常用复合属性，他可以简化代码，提高页面的运行速度，但是如果是只设置一个属性值，最好不要应用复合属性，以免样式不被兼容。</p>
+<p>为了使初学者更好的理解复合属性，下面对标题，段落和图像分别应用broder相关的复合属性设置边框。如例4-4所示。</p>
+<p align  = "center" >  例4-4 example04.html </p>
+
+
+
+<div style="background-color:black; width: 600px;height: 600px;">
+
+
+<p><font size = "2" color = "bule"> 1  &nbsp;&nbsp; &lt;!doctype html&gt;</font>  </p>
+<p><font size = "2" color = "bule"> 2  &nbsp;&nbsp; &lt;html&gt;</font></p>
+<p><font size = "2" color = "bule"> 3  &nbsp;&nbsp; &lt;head&gt;</font></p>
+<p><font size = "2" color = "bule"> 4  &nbsp;&nbsp; &lt;meta charset= "UTF-8"&gt;</font></p>
+<p><font size = "2" color = "bule"> 5  &nbsp;&nbsp; &lt;title&gt;中和设置边框&lt;/title&gt;</font></p>
+<p><font size = "2" color = "bule"> 6  &nbsp;&nbsp; &lt;stytle type = "text/scc"&gt;</font></p>
+<p><font size = "2" color = "bule"> 7  &nbsp;&nbsp; h2 {     </font></p>
+<p><font size = "2" color = "bule"> 8  &nbsp;&nbsp; &nbsp;&nbsp;       broder - buttom:5px double bule; &nbsp;&nbsp; &nbsp;&nbsp; /*复合属性设置下边框*/ </font> </p>
+<p><font size = "2" color = "bule"> 9  &nbsp;&nbsp; &nbsp;&nbsp;      text - align :center;  </p>
+<p><font size = "2" color = "bule"> 10 &nbsp;&nbsp; }  </font>  </p>                          
+<p><font size = "2" color = "bule"></font> 11 .text{ </font></p>
+<p><font size = "2" color = "bule"> 12 &nbsp;&nbsp; &nbsp;&nbsp; boder-top:3px dashed #F00 </font></p>
+<p><font size = "2" color = "bule"> 13 &nbsp;&nbsp; &nbsp;&nbsp; boder-right:10px double #900</font></p>
+<p><font size = "2" color = "bule"> 14 &nbsp;&nbsp; &nbsp;&nbsp; boder-top:3px dotted #ccc</font></p>
+<p><font size = "2" color = "bule"> 15 &nbsp;&nbsp; &nbsp;&nbsp; boder-top:10px solid green </font></p>
+<p><font size = "2" color = "bule"> 16 }</font></p>
+</div>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp; 在例4-4中，该边框的的单侧复合属性设置二级标题和段落文本，其中二级标题添加下边框，段落文本的各侧边框样式都不同，然后使用复合属性broder，为图像设置4条相同的边框。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; 运行4-4，效果如图4-9所示。</p>
+<img src = "images/IMG_20230226_095218.jpg" vspace = "50" hspace = "600" width=" 450 " height=" 750"/>
+<h2 align = "center"> 例4-9综合边框设置</h2>
+</body>
+</html>

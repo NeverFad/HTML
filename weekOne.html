@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="">
+    <meta name="description" content="姓名-学号">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>weekOneHomework</title>
+    <link href="weekFour.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <code>broder-top-width:2px; <br>
+              broder-top-color:#CCC;<br>
+} </code>
+
+    <p> 当四边的边框样式都相同时，可以使用border属性进行综合设置。例如，将二级标题的边框设置为双红线，红色，3像素宽，代码如下</p>
+    <code> h2{broder :3px double red;}</code>
+
+    <p> 像broder ,broder-top 等这样，能够一个属性定义元素的多种形式，在css中称之为复合属性，常用的复合属性有font ,broder , margin,padding和 background
+        等。实际上工作中常用复合属性，他可以简化代码，提高页面的运行速度，但是如果是只设置一个属性值，最好不要应用复合属性，以免样式不被兼容。</p>
+    <p>为了使初学者更好的理解复合属性，下面对标题，段落和图像分别应用broder相关的复合属性设置边框。如例4-4所示。</p>
+    <h4> 例4-4 example04.html </h4>
+    <code> 1 &lt;!doctype html&gt; <br>
+               2 &lt;html&gt; <br>
+               3 &lt;head&gt; <br>
+               4 &lt;meta charset= "UTF-8"&gt;<br>
+               5 &lt;title&gt;中和设置边框&lt;/title&gt;<br>
+               6 &lt;stytle type = "text/scc"&gt;<br>
+               7 h2 { <br>
+               8 broder - buttom:5px double bule; /*复合属性设置下边框*/ <br>
+               9 text - align :center;<br>
+               10 }; <br>
+               11 .text{ <br>
+               12 &nbsp;&nbsp; &nbsp;&nbsp; boder-top:3px dashed #F00 <br>
+               13 &nbsp;&nbsp; &nbsp;&nbsp; boder-right:10px double #900<br>
+               14 &nbsp;&nbsp; &nbsp;&nbsp; boder-top:3px dotted #ccc <br>
+               15 &nbsp;&nbsp; &nbsp;&nbsp; boder-top:10px solid green <br>
+               16 } 
+        </code>
+
+    <p> 在例4-4中，该边框的的单侧复合属性设置二级标题和段落文本，其中二级标题添加下边框，段落文本的各侧边框样式都不同，然后使用复合属性broder，为图像设置4条相同的边框。</p>
+    <p> 运行4-4，效果如图4-9所示。</p>
+    <figure>
+        <img src="IMG_20230226_095218.jpg" />
+        <figcaption>例4-9综合边框设置</figcaption>
+    </figure>
+    <a href="weekThree.html">第二周作业</a>
+
+</body>
+
+</html>

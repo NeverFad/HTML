@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="姓名-学号">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+            color: black;
+        }
+
+        header {
+            height: 95px;
+        }
+
+        nav {
+            height: 40px;
+            background-color: #a13838;
+        }
+
+        #slide {
+            height: 345px;
+            background-color: aqua;
+        }
+
+        main {
+            background: url(IMG_20230226_095218.jpg);
+            height: 500px;
+        }
+
+        #wrap {
+            width: 80%;
+            background-color: white;
+            margin: 0 auto;
+
+        }
+
+        #wrap::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        #wrap article {
+            float: left;
+            width: 60%;
+
+            box-sizing: border-box;
+            padding: 10px 15px;
+        }
+
+        #wrap article section {
+            margin-top: 10px;
+            line-height: 2rem;
+        }
+
+        #wrap aside {
+            float: left;
+            width: 40%;
+        }
+
+        #wrap article section:nth-of-type(1) li {
+            background: url() no-repeat left center;
+            padding-left: 10px;
+
+        }
+
+        #wrap article section:nth-of-type(2) li {
+            width: 30%;
+            float: left;
+        }
+
+        #wrap article section:nth-of-type(2) ul ::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        #wrap article section:nth-of-type(2) li img {
+            width: 100%;
+        }
+
+        #wrap article section li ::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        #wrap article section li a {
+            float: left;
+        }
+
+        #wrap article section li span {
+            float: left;
+
+        }
+
+        #wrap h3 li {
+            float: left;
+            margin-right: 10px;
+        }
+
+        #wrap h3 {
+            border-bottom: 1px solid black;
+            line-height: 3rem;
+        }
+
+        #wrap h3 ul::after {
+            content: "";
+            display: block;
+            clear: both;
+
+        }
+
+        #wrap h3 li:last-child {
+            float: right;
+            color: #aaa;
+        }
+
+        #wrap h3 li:first-child {
+            border-bottom: 1px solid #a13838;
+        }
+
+        footer {
+            height: 145px;
+            background-color: #a13838;
+        }
+    </style>
+</head>
+
+<body>
+    <header></header>
+    <nav></nav>
+    <div id="slide"></div>
+    <main>
+        <div id="wrap">
+            <article>
+                <h3>
+                    <ul>
+                        <li>时政新闻</li>
+                        <li>师大新闻</li>
+                        <li>校园动态</li>
+                        <li>媒体师大</li>
+                        <li>学术师大</li>
+                        <li>More+</li>
+                    </ul>
+                </h3>
+                <section>
+                    <ul>
+                        <li>
+                            <a href="#">文本1</a><span>04-28</span>
+                        </li>
+                        <li><a href="#">文本1</a><span>04-28</span></li>
+                        <li><a href="#">文本1</a><span>04-28</span></li>
+                        <li><a href="#">文本1</a><span>04-28</span></li>
+                        <li><a href="#">文本1</a><span>04-28</span></li>
+                        <li><a href="#">文本1</a><span>04-28</span></li>
+                    </ul>
+                </section>
+                <h3>
+                    <ul>
+                        <li>专题网站</li>
+                        <li>More+</li>
+                    </ul>
+                </h3>
+                <section>
+                    <ul>
+                        <li><img src="1e04462f7c4ae63d.jpg" alt=""></li>
+                        <li><img src="1e04462f7c4ae63d - 副本.jpg" alt=""></li>
+                        <li><img src="1e04462f7c4ae63d - 副本.jpg" alt=""></li>
+                    </ul>
+                </section>
+
+
+            </article>
+            <aside> dsaggdgyag </aside>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

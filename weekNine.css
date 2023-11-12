@@ -1,0 +1,11 @@
+::after {
+    clear: both
+}
+
+text-overflow {
+    ellipsis
+}
+
+while-space:nowrap;
+
+overflow: hidden;

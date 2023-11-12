@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="姓名-学号">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> weekThree</title>
+    <link href="weekFour.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <p>运行例6-11，效果图如6-32所示。</p>
+    <figure>
+        <img src="1e04462f7c4ae63d.jpg " />
+        <figcaption>图6-32 使用&lt;lable&gt;标签</figcaption>
+    </figure>
+    <p>在图6-32所展示的页面中，单击姓名时,光标会自动移动到姓名输入框中，同样单击
+        “男”或“女”，相应的单选按钮就会处于选中的状态。</p>
+    <h1>案例分析</h1>
+    <h3>1.结构分析</h3>
+    <p>图6-29所示的“驾考选择题”页面由两道选择题构成，可以使用&lt;form&gt;表单控制整体
+        效果，另外，每道选择题的题目部分可使用&lt;p&gt;标签定义，四个选项分别表示使用&lt;input/&gt;标签联合
+        &lt;lable&gt;标签进行定义。为了方便控制每道题目，可以使用&lt;div&gt;标签对每道题目和选项进行整
+        体控制。图6-29对应的结构如图6-33所示。
+    </p>
+    <figure>
+        <img src="6273b2b9be842c62.jpg" />
+        <figcaption> 图6-33 结构分析</figcaption>
+    </figure>
+
+    <h3>2.样式分析</h3>
+    <p>实现图6-29所示样式的思路如下。</p>
+    <ol>
+        <li>&#x2460; 整体控制表单，需要&lt;form&gt;标签设置宽度，高度设置背景图片，文本和内边距样式。</li>
+        <li>&#x2461;控制选择题的题目样式，需要&lt;p&gt;标签设置宽度，高度，行高，字号和内边距样式。</li>
+        <li>&#x2462;分别设置选择题题目和背景图像。</li>
+        <li>&#x2463;控制选项的样式，需要将&lt;lable&gt;标签转换为块元素，并为其设置宽度和内边距样式。</li>
+        <li>&#x2464;对第一个&lt;div&gt;应用内边距样式，是上下两道题目之间拉开一定的距离。</li>
+    </ol>
+    <h3>3.制作页面结构</h3>
+    <p> 根据上面的分析，使用相应的HTML标签来搭建网页结构，例如6-12所示。</p>
+    <a href="weekOne.html">第一周作业</a>
+</body>
+
+</html>

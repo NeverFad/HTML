@@ -1,0 +1,28 @@
+.text {
+    background-image: url("xiaomi/1.png");
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    background-size: 1980px;
+}
+
+
+
+a:hover {
+    color: rgb(255, 105, 0);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 10px 25px;
+
+
+}
+
+.ORG {
+    color: rgb(255, 105, 0);
+}

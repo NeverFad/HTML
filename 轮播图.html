@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="姓名-学号">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Document</title>
+</head>
+
+<body>
+
+
+    <div id="butong_net_right" style="overflow:hidden;width:100px;">
+        <table cellpadding="0" cellspacing="0" border="0">
+            <tr>
+                <td id="butong_net_right1" valign="top" align="center">
+                    <table cellpadding="2" cellspacing="0" border="0">
+                        <tr align="center">
+                            <td><img src="1e04462f7c4ae63d.jpg"></td>
+                            <td><img src="1e04462f7c4ae63d - 副本.jpg"></td>
+                            <td><img src="1e04462f7c4ae63d - 副本.jpg"></td>
+                            <td><img src="1e04462f7c4ae63d - 副本.jpg"></td>
+                            <td><img src="1e04462f7c4ae63d - 副本.jpg"></td>
+                        </tr>
+                    </table>
+                </td>
+                <td id="butong_net_right2" valign="top"></td>
+            </tr>
+        </table>
+    </div>
+    <script>
+        var speed = 15//速度数值越大速度越慢
+        butong_net_right2.innerHTML = butong_net_right1.innerHTML
+        function Marquee4() {
+            if (butong_net_right.scrollLeft <= 0)
+                butong_net_right.scrollLeft += butong_net_right2.offsetWidth
+            else {
+                butong_net_right.scrollLeft--
+            }
+        }
+        var MyMar4 = setInterval(Marquee4, speed)
+        butong_net_right.οnmοuseοver = function () { clearInterval(MyMar4) }
+        butong_net_right.οnmοuseοut = function () { MyMar4 = setInterval(Marquee4, speed) }
+    </script>
+
+    <!--向右滚动代码结束-->
+</body>
+
+</html>

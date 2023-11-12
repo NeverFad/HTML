@@ -1,0 +1,201 @@
+* {
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+header {
+    display: flex;
+    height: 350px;
+    background: url("../Imgae/Header.png") no-repeat;
+
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#register {
+
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 0 1 0 rgba(0, 0, 0, 0) inset;
+    transition: all 1s;
+}
+
+#register :hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.4);
+}
+
+#register ul {
+    display: flex;
+    justify-content: end;
+
+}
+
+#register ul li {
+    padding: 10px 20px;
+}
+
+#register ul li a {
+    color: cyan;
+}
+
+
+#meun {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c, #967BB6, #0E4D92, #FFC3D5);
+}
+
+
+
+#meun ul {
+    display: flex;
+    justify-content: center;
+    line-height: 2.5em;
+}
+
+
+
+#meun ul li {
+    padding: 0 30px 0;
+    border-left: 1px solid black;
+    box-sizing: border-box;
+}
+
+#meun ul :nth-child(5) {
+    border-right: 1px solid rgba(10, 9, 9, 1);
+}
+
+#meun ul li a {
+    color: black;
+    transition: all 1s;
+}
+
+#meun ul :first-child a {
+    padding-bottom: 5px;
+    border-bottom: 2px solid red;
+}
+
+#meun ul li a:hover {
+    color: red;
+}
+
+
+
+main {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+
+}
+
+#imageWall {
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+#imageWall h3 {
+    box-sizing: border-box;
+    padding: 10px 0px 10px 20px;
+    border-top: 3px solid black;
+
+}
+
+#imageWall h3 a {
+    border-bottom: 3px solid black;
+}
+
+.carousel {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+
+.carousel img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: slide 10s infinite;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+#content {
+    background-color: whitesmoke;
+    margin-top: 20px;
+
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    margin-left: 50px;
+    width: 600px;
+}
+
+#content h3 {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 10px 0px 10px 20px;
+    border-bottom: 2px solid gray;
+}
+
+#content section {
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+#content ul li {
+    border-bottom: 1px dotted black;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+
+}
+
+#content ul li a {
+    padding-top: 10px;
+    color: black;
+    transition: color 1s ease-in-out;
+}
+
+#content ul li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+footer {
+    height: 100px;
+    background-color: red;
+}
+
+footer p {
+    text-align: center;
+}

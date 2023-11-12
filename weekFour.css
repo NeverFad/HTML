@@ -1,0 +1,53 @@
+/* Same */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+p {
+    text-indent: 2em;
+}
+
+
+img {
+    width: 200px;
+}
+
+figcaption,
+figure {
+    text-align: center;
+}
+
+
+
+/* WeekOne */
+
+h4 {
+    text-align: center;
+}
+
+code {
+    background-color: darkgrey;
+    padding: 0 2em;
+    display: block;
+}
+
+/* WeekTwo */
+h1 {
+    text-indent: 1em;
+}
+
+h3 {
+    text-indent: 2em;
+
+}
+
+h5 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    text-indent: 2em;
+}
